@@ -20,7 +20,7 @@ async function generateAnswer(){
   return (
     <>
     <div className= "w-full"></div>
-      <h1 className="bg-yellow-300">Chai AI</h1>
+      <h1 className="bg-yellow-300">Chat AI</h1>
       <textarea 
       className="border rounded w-full"
       value={question} 
