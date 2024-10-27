@@ -27,7 +27,9 @@ async function generateAnswer(){
       onChange={(e)=> setquestion(e.target.value)} 
       cols="30" 
       rows="10"
-      placeholder="Hey,Ask anything to me.Primarily I have been developed by VIBHAS for his project work but I will surely help you.">
+      placeholder="Hey,Ask anything to me.
+        Primarily I have been developed by VIBHAS for his project work but 
+        I will surely help you.">
       </textarea>
       <button onClick={generateAnswer}> Generate Answer </button>
       <pre>{answer}</pre>
